@@ -78,7 +78,7 @@ JOIN stops stopa ON (a.stop = stopa.id)
 JOIN stops stopb ON (b.stop = stopb.id)
 JOIN stops stopc ON (c.stop = stopc.id)
 JOIN stops stopd ON (d.stop = stopd.id)
-WHERE  stopa.name = 'Craiglockhart' AND stopd.name = 'Sighthill'
+WHERE  stopa.name = 'Craiglockhart' AND stopd.name = 'Lochend'
             AND  stopb.name = stopc.name
 ORDER BY LENGTH(a.num), b.num, stopb.id, LENGTH(c.num), d.num; 
 
